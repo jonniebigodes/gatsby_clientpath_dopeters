@@ -1,4 +1,6 @@
-import React from 'react'
+import React from "react"
 
-const AnotherClientPageWithParams=({someparam})=><div>Client page with some param {someparam}</div>
+const AnotherClientPageWithParams = ({ someparam }) => (
+  <div>Client page with some param {someparam}</div>
+)
 export default AnotherClientPageWithParams

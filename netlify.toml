@@ -10,7 +10,12 @@
     from = "/admin/*"
     to = "/admin/admin/index.html"
     status = 200
-  
+
+  [[redirects]]
+    from ="/another-client/*"
+    to="/another-client/another-client-section/index.html"
+    status=200
+
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/netlify-dev-plugin#project-detection
   #[dev] 

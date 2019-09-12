@@ -9,7 +9,7 @@ const AnotherSection=()=>{
         <Router basepath="/">
           <AnotherClientHome path="another-client" />
           <AnotherClientPageWithParams path="another-client/another-page/:someparam" />
-          <AnotherClientPage path="another-client/randompage/another-random-page" />
+          <AnotherClientPage path="another-client/another-page/another-random-page" />
         </Router>
       )
 }
