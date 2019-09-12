@@ -17,9 +17,6 @@ export default () => (
         <Link to="/another-client/">Another example client side</Link>
       </li>
       <li>
-        <Link to="/another-client/">Another example client side</Link>
-      </li>
-      <li>
         <Link to="/another-client/another-page/222222">
           Another example client side with params
         </Link>
