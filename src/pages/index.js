@@ -4,6 +4,7 @@ export default () => (
   <div>
     Entry page
     <ul>
+      <li><Link to="/page2/">gatsby page 2</Link></li>
       <li>
         <Link to="/admin">Admin Page</Link>
       </li>
